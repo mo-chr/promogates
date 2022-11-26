@@ -20,6 +20,8 @@ body {
 p {
   margin: 0;
   margin-left: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .hero {
   width: 100%;
@@ -275,10 +277,11 @@ h2 {
   .container
   {
     margin-left: 0;
+    align-items: center;
   }
 .getToKnowUs{
-  padding-left: 0.6rem;
   align-items: center;
+  margin-left: 0;
   
 }
 .containerrow
@@ -296,14 +299,21 @@ h2 {
 .inquire-button
 {
   font-size: larger;
+  margin-left: 0;
+  width: 15rem;
+  
 }
 .gtkucontainer
 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  align-items: center;
 }
-
+h2{text-align: center;}
   body {
     overflow-x: hidden;
   }
@@ -314,16 +324,16 @@ h2 {
     align-self: center;
   }
   .containerrow {
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .gtkuParagraph {
-    width: 100%;
+    width: 90%;
     margin-left: 0;
+    margin-right: 0;
   }
-  .getToKnowUs {
-    margin-left: 0;
-  }
+
   .container-services {
     flex-direction: row;
     flex-wrap: wrap;
@@ -334,6 +344,7 @@ h2 {
   }
   .service {
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .container-projects {
     flex-direction: column;
@@ -343,7 +354,7 @@ h2 {
     margin-bottom: 2rem;
   }
   .project .gradiant .project-title {
-    padding-top: 90%;
+    padding-top: 80%;
   }
   .getintouch {
     display: flex;
@@ -353,10 +364,12 @@ h2 {
     text-align: center;
   }
   .info {
+    width: 100%;
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .quote{    font-size: 1.5rem;}
   .social {
     align-items: center;
     justify-content: center;
