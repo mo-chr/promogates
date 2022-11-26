@@ -101,6 +101,7 @@ h2 {
   padding-right: 2.5rem;
   border-radius: 7rem;
   transition: all 250ms ease-in-out;
+  margin-top: 4.1rem;
 }
 .inquire-button:hover {
   background-color: #841f82;
