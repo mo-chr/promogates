@@ -56,7 +56,7 @@ h2 {
 .quotes {
   height: auto;
   width: 5rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .quote {
   font-size: 1.2rem;
@@ -64,6 +64,7 @@ h2 {
   word-spacing: 0.5rem;
   font-family: TT-Wellingtons-Bold;
   margin-left: 5rem;
+  margin-bottom: 5rem;
 }
 .getToKnowUs {
   width: 100%;
