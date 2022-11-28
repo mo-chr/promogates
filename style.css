@@ -23,6 +23,7 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+html{scroll-behavior: smooth;}
 .hero {
   width: 100%;
   height: fit-content;
@@ -380,4 +381,15 @@ h2{text-align: center;}
     font-size: 3rem;
     max-width: 95%;
   }
+}
+.container-projects a
+{
+  text-decoration: none;
+  max-width: max-content;
+  width: 100%;
+
+}
+a
+{
+  text-decoration: none;
 }
