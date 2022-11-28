@@ -57,6 +57,7 @@ h2 {
   height: auto;
   width: 5rem;
   padding-top: 2rem;
+  margin-left: 5rem;
 }
 .quote {
   font-size: 1.2rem;
@@ -71,7 +72,15 @@ h2 {
   height: fit-content;
   min-height: 46rem;
   background-color: white;
-  margin-left: 4rem;
+}
+.getToKnowUs h2
+{
+  margin-left: 5rem;
+
+}
+.containerrow
+{
+  margin-left: 5rem;
 }
 .gtkuimg {
   height: auto;
