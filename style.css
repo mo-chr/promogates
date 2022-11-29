@@ -17,7 +17,7 @@ body {
   block-size: inherit;
   overflow-x: hidden;
 }
-p {
+p,h1,h2,h3,h4 {
   margin: 0;
   margin-left: 0;
   margin-block-start: 0;
@@ -287,6 +287,21 @@ h2 {
   margin-top: 7rem;
 }
 @media only screen and (max-width: 600px) {
+  .containerrow {
+    width: fit-content;
+    margin-left: 0;
+  }
+  .getToKnowUs h2 {
+    margin-left: 0
+;
+}
+.quote {
+    margin-left: 0;
+  text-align: center;}
+  .quotes
+  {
+    margin-left: 1rem;
+  }
   .container
   {
     margin-left: 0;
