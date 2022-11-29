@@ -129,7 +129,7 @@ h2 {
   min-height: 46rem;
 }
 .service {
-  height: 26rem;
+  height: 32rem;
   width: 20rem;
   background-color: white;
   border-radius: 1rem;
@@ -157,9 +157,12 @@ h2 {
   font-weight: bold;
 }
 .service p {
+  font-family: TT-Wellingtons;
+  padding-top: 1rem;
   width: 90%;
   align-self: center;
   text-align: center;
+  font-size: small;
 }
 .service:hover {
   transform: translateY(-0.4rem);
