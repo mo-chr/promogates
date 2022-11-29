@@ -73,10 +73,12 @@ h2 {
   height: fit-content;
   min-height: 46rem;
   background-color: white;
+  margin-top: 2rem;
 }
 .getToKnowUs h2
 {
   margin-left: 5rem;
+  margin-bottom: 5rem;
 
 }
 .containerrow
@@ -139,6 +141,8 @@ h2 {
   transition: all 300ms ease-in-out;
 }
 .title-services {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   color: white;
   text-align: end;
 }
@@ -180,9 +184,11 @@ h2 {
   text-align: center;
 }
 .title-projects {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   width: fit-content;
   max-width: max-content;
-  color: black;
+  color: #841f82;
 }
 .container-projects {
   display: flex;
@@ -296,6 +302,7 @@ h2 {
     margin-left: 0;
   }
   .getToKnowUs h2 {
+
     margin-left: 0
 ;
 }
