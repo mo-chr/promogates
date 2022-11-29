@@ -73,12 +73,13 @@ h2 {
   height: fit-content;
   min-height: 46rem;
   background-color: white;
-  margin-top: 2rem;
+
 }
 .getToKnowUs h2
 {
   margin-left: 5rem;
   margin-bottom: 5rem;
+  margin-top: 5rem;
 
 }
 .containerrow
@@ -184,7 +185,7 @@ h2 {
   text-align: center;
 }
 .title-projects {
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
   width: fit-content;
   max-width: max-content;
@@ -240,6 +241,7 @@ h2 {
 }
 
 .project .gradiant .project-title {
+ margin-bottom: 1rem;
   padding-top: 100%;
   padding-left: 5%;
   padding-right: 5%;
